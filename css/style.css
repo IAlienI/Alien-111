@@ -1,0 +1,63 @@
+.hidden {
+  display: none;
+}
+#login-form{
+  size: 30px;
+}
+.a{
+  font-family: "MyNotoSans";
+  color: white;
+  font-weight: bold;
+  
+  
+}
+.clock{
+  position: relative;
+  text-align: right;
+  /* right: 300px; */
+  color: white;
+  vertical-align: right;
+  text-shadow: 0.5px 0.5px 0.5px black;
+  /* text-align: bottom; */
+}
+.middle{
+  position: relative;
+  text-align: center;
+  /* left: 50%; */
+  top : 70%;
+  font-size: medium;
+  /* top: 360px; */
+}
+#weather {
+  text-align: right;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+#todo-list {
+  font-size: 30px;
+}
+
+#greeting {
+  vertical-align: middle;
+  font-size: 70px;
+  text-shadow: 1px 1px 1px black;
+}
+#quote{
+  font-size: 20px;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+@font-face {
+  font-family: "MyNotoSans";
+  src: url(./fonts/NotoSansKR-Regular.otf);
+}
+
+img{
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0px;
+  top:0px;
+  right:0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
